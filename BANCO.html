@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste logico</title>
+<script>
+
+var idadade = 15;
+var ehEmancipada = true;
+var documentacaoOK = true;
+var score = 900;
+
+if (idade>=18 || ehEmancipada) {
+  if(documentacaoOK) {
+    if(score>=700){
+      console.log(3000)
+    }else if (score>=500 && score<700){
+      console.log(1500)
+    }else {
+      console.log(500)
+    }
+  }else {
+    console.log("CONTA NEGADA")
+  }
+
+}else{
+  console.log("CONTA NEGADA")
+}
+
+</script>
+
+</head>
+<body>
+    
+</body>
+</html>
